@@ -1,0 +1,31 @@
+source ai-env/bin/activate  // for activating env (Linux)
+
+ai-env\Scripts\activate.bat // for windows
+
+python3 -m venv <ai-env>  // for creating venv
+
+pip freeze > requirements.txt // freezing packages
+
+pip install -r requirements.txt // installing packages from file
+
+
+###
+# FLASK Commands
+###
+set FLASK_APP=app.py // for windows
+
+export FLASK_APP=app.py // for linux
+
+###
+# Database migration
+###
+
+flask db init // for 1st time
+
+flask db migrate // create migration Scripts
+
+flask db upgrade // apply migration Scripts
+
+flask db downgrade // undo changes
+
+flask db stamp head // head change

@@ -1,0 +1,5 @@
+{
+    "SECRET_KEY": "e1d76bca-c5c8-4362-8500-091f0be99d43",
+    "SQLALCHEMY_DATABASE_URI": "postgresql://postgres:ovi1234@localhost/test-db",
+    "SQLALCHEMY_TRACK_MODIFICATIONS": "True"
+}
